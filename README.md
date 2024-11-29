@@ -10,7 +10,7 @@ get_next_line es una función que:
 ```bash
 char *get_next_line(int fd);
 ```
-- fd: El file descriptor del archivo que quieres leer.
+- `fd`: El file descriptor del archivo que quieres leer.
 - Devuelve un puntero al contenido de la línea leída, incluyendo el salto de línea (\n), si existe.
 
 ## 🛠️ Herramientas y Conceptos Clave
@@ -24,9 +24,9 @@ Este proyecto utiliza:
 ## 🚀 Instrucciones de Uso
 1. Copia los archivos de get_next_line en tu proyecto.
 Asegúrate de incluir:
-- get_next_line.c
-- get_next_line_utils.c
-- -get_next_line.h
+- `get_next_line.c`
+- `get_next_line_utils.c`
+- `get_next_line.h`
   
 Ejemplo:
 ```bash
